@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 
 // Get the port from environment variables - Render sets this
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 443;
 
 // Create the WebSocket server attached to the HTTP server
 const wss = new WebSocketServer({ 
